@@ -1,6 +1,7 @@
 console.log("Starting")
 
 //Fibonacci array of a number;
+//TC : O(n)
 function fibonacci(n){
     let fibArr = [0,1];
     for(let i=2;i<n;i++){
@@ -10,4 +11,4 @@ function fibonacci(n){
     
 }
 
-console.log(fibonacci(7)); //BIGO : O(n)
+console.log(fibonacci(7)); 
